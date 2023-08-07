@@ -1,0 +1,16 @@
+{
+    "manifest_version": 3,
+    "name": "Check CVE Info",
+    "version": "1.0.0",
+    "description": "Check for CVE info from any sites.",
+    "author": "Sanya Marseille",
+    "background": {
+        "service_worker": "scripts/background.js",
+        "type": "module"
+    },
+    "permissions": [
+        "tabs",
+        "activeTab",
+        "contextMenus"
+    ]
+}
